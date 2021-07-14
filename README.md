@@ -1,5 +1,5 @@
 # !NOTE THE ORIGINAL CODE WAS TAKEN OFF https://github.com/zeltox/Google-Drive-PDF-Downloader
-I saw some room for improvement, when my little brother tried to use it. **This code should be used for educational or experimental purposes only. I am not reposible for any intentional missue. As always if its on the internet its free sorry google ;‑) **
+I saw some room for improvement, when my little brother tried to use it. **This code should be used for educational or experimental purposes only. I am not reposible for any intentional missue. As always if its on the internet its free sorry google ;‑)**
 
 # Google Drive PDF Downloader
 
@@ -21,11 +21,12 @@ This script will help you to download protected view only PDF files from Google 
 3. Open the script **"Method_1_Script.js"** and copy all the contents.
 4. Then open the browser web console.
 5. Paste the copied script into the console and press enter.
-6. After few seconds the browser will prompt you to save a file with extension **".PDF_DataFile"**
-7. Save this file and copy it into the **"Input"** directory which is inside the repository you downloaded earlier!
-8. If you are using Windows then navigate to **"Windows"** directory and double click on **"GeneratePDF.cmd"**, or If you are using Linux then navigate to **"Linux"** directory and execute **"GeneratePDF"**
-9. A successful message will be shown once the whole process completes.
-10. Navigate to the **"Output"** directory and enjoy!
+6. Copy this into the console startPDFGenerate("Desired PDF name").
+7. After few seconds the browser will prompt you to save a file with extension **".PDF_DataFile"**
+8. Save this file and copy it into the **"Input"** directory which is inside the repository you downloaded earlier!
+9. If you are using Windows then navigate to **"Windows"** directory and double click on **"GeneratePDF.cmd"**, or If you are using Linux then navigate to **"Linux"** directory and execute **"GeneratePDF"**
+10. A successful message will be shown once the whole process completes.
+11. Navigate to the **"Output"** directory and enjoy!
 
 ## Tips for Method 1
 * You should always give a custom file name by changing the place holder "Document" to "Cool_File_Name" in  **Method_1_Script.js**. Do not include **".pdf"** file extension along with the document name here! 
