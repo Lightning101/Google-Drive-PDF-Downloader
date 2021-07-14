@@ -1,3 +1,6 @@
+# !NOTE THE ORIGINAL CODE WAS TAKEN OFF https://github.com/zeltox/Google-Drive-PDF-Downloader
+I saw some room for improvement, when my little brother tried to use it. **This code should be used for educational or experimental purposes only. I am not reposible for any intentional missue. As always if its on the internet its free sorry google ;‑) **
+
 # Google Drive PDF Downloader
 
 This script will help you to download protected view only PDF files from Google Drive easily.
