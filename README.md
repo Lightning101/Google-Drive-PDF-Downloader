@@ -21,21 +21,22 @@ This script will help you to download protected view only PDF files from Google 
 3. Open the script **"Method_1_Script.js"** and copy all the contents.
 4. Then open the browser web console.
 5. Paste the copied script into the console and press enter.
-6. Copy this into the console startPDFGenerate("Desired PDF name").
+6. Copy this into the console startPDFGenerate().
 7. After few seconds the browser will prompt you to save a file with extension **".PDF_DataFile"**
 8. Save this file and copy it into the **"Input"** directory which is inside the repository you downloaded earlier!
 9. If you are using Windows then navigate to **"Windows"** directory and double click on **"GeneratePDF.cmd"**, or If you are using Linux then navigate to **"Linux"** directory and execute **"GeneratePDF"**
 10. A successful message will be shown once the whole process completes.
 11. Navigate to the **"Output"** directory and enjoy!
+12. This process can be repeated for the next pdf by opening the page and running startPDFGenerate() again.
 
 ## Tips for Method 1
-* You should always give a custom file name by changing the place holder "Document" to "Cool_File_Name" in  **Method_1_Script.js**. Do not include **".pdf"** file extension along with the document name here! 
+* To give file name by changing the place holder "Document" to "Cool_File_Name" in  **Method_1_Script.js**. Do not include **".pdf"** file extension along with the document name here! 
 ```
-let pdfDocumentName = "Document";
+startPDFGenerate()
 ```
 Change to this
 ```
-let pdfDocumentName = "Cool_File_Name"; 
+startPDFGenerate("Desired Name")
 ```
 * By default this script will download PDF file with the highest quality available, but just in case if you need even better quality simply zoom in your browser (eg: 200% to 300%) then follow the above steps to download.
 * The Output directory contains individual PDF directories for efficient organizing and **"Pages"** directory is present in each one of these.
