@@ -66,7 +66,6 @@ let pdfDocumentName = "Cool_File_Name";
 * By default this script will download PDF file with the highest quality available, but just in case if you need even better quality simply zoom in your browser (eg: 130% to 150%) then follow the above steps to download. If you increase the zoom level more than 150% Method_2_Script.js will struggle to generate the PDF.
 
 ## Author
-* **Pala** - [Follow me on Instagram!](https://www.instagram.com/pala_zeltox/)  
 Feel free to contact me for projects.
 
 ## Inspiration
