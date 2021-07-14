@@ -60,7 +60,7 @@ function scrollToBottom(remainingHeightToScroll, scrollToLocation, scrollDistanc
     }, 400)
 }
 
-function startPDFGenerate(documentName) {
+function startPDFGenerate(documentName = "Document") {
     let allElements = document.querySelectorAll("*");
     let chosenElement;
     let heightOfScrollableElement = 0;
