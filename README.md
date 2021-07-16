@@ -17,8 +17,8 @@ This script will help you to download protected view only PDF files from Google 
 
 ## Improvments
 * As of 2021 July
-** Updated Method 1 script to be inline with coding standards and reusable.
-** Created Method 3 script to allow users to close the console and use button to download PDF_DataFile (For non tech savy users).
+    * Updated Method 1 script to be inline with coding standards and reusable.
+    * Created Method 3 script to allow users to close the console and use button to download PDF_DataFile (For non tech savy users).
 
 ## How to use - Method 1 
 ### This method is fast, works for all types of scenarios and performance is great!
