@@ -29,6 +29,7 @@ This script will help you to download protected view only PDF files from Google 
 11. Navigate to the **"Output"** directory and enjoy!
 12. This process can be repeated for the next pdf by opening the page and running GooglePDFGenerator.startPDFGenerate() again.
 
+
 ## Tips for Method 1
 * To give file name by changing the place holder "Document" to "Cool_File_Name" in  **Method_1_Script.js**. Do not include **".pdf"** file extension along with the document name here! 
 ```
@@ -64,6 +65,21 @@ Change to this
 let pdfDocumentName = "Cool_File_Name"; 
 ```
 * By default this script will download PDF file with the highest quality available, but just in case if you need even better quality simply zoom in your browser (eg: 130% to 150%) then follow the above steps to download. If you increase the zoom level more than 150% Method_2_Script.js will struggle to generate the PDF.
+
+## How to use - Method 3
+### This method is fast, works for all types of scenarios and performance is great!
+1. Download this repository to your computer and unzip it.
+2. Enter the URL of the protected view only PDF File into your browser. (eg: Firefox, Chrome etc.)
+3. Open the script **"Method_3_Script.js"** and copy all the contents.
+4. Then open the browser web console.
+5. Paste the copied script into the console and press enter.
+7. Then close console.
+6. After you can repeatedly use the download button and the input box to download the **".PDF_DataFile"** files
+7. After few seconds the browser will prompt you to save a file with extension **".PDF_DataFile"**
+8. Save this file and copy it into the **"Input"** directory which is inside the repository you downloaded earlier!
+9. If you are using Windows then navigate to **"Windows"** directory and double click on **"GeneratePDF.cmd"**, or If you are using Linux then navigate to **"Linux"** directory and execute **"GeneratePDF"**
+10. A successful message will be shown once the whole process completes.
+11. Navigate to the **"Output"** directory and enjoy!
 
 ## Author
 Feel free to contact me for projects.
